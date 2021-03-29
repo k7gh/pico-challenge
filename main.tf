@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAZ7AO4L7E4JWATXVT"
-  secret_key = "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"
 }
 
 resource "aws_vpc" "pico_vpc" {
